@@ -1,2 +1,0 @@
-# LEGEND-M-ALI-
-LEGEND M ALI 

@@ -1,0 +1,96 @@
+/* Base Architecture Framework Elements Override */
+body {
+    background-color: #060913;
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Glassmorphism System Parameters */
+.glass-card {
+    background: rgba(13, 20, 38, 0.45);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-navbar {
+    background: rgba(6, 9, 19, 0.7);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* Floating Ambient Orbs */
+.bg-orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(140px);
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.15;
+}
+.orb-1 {
+    width: 400px;
+    height: 400px;
+    background: #4f46e5;
+    top: -10%;
+    left: -10%;
+}
+.orb-2 {
+    width: 500px;
+    height: 500px;
+    background: #7c3aed;
+    bottom: -10%;
+    right: -10%;
+}
+
+/* Custom Input Forms UI elements */
+.form-input-element {
+    width: 100%;
+    background: rgba(3, 7, 18, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+.form-input-element:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15);
+}
+
+/* Interactive Menu Category Button Element tabs */
+.tab-element {
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #94a3b8;
+    cursor: pointer;
+}
+.tab-element:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.03);
+}
+.active-tab {
+    background: #4f46e5 !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.4);
+}
+
+/* Mini Scrollbar Components Utility */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(99, 102, 241, 0.3);
+    border-radius: 99px;
+}
