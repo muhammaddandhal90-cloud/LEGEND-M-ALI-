@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1716142100001,
+    "title": "Sample Hollywood Movie (2026)",
+    "category": "hollywood",
+    "genre": "Sci-Fi, Action",
+    "language": "English / Hindi",
+    "runtime": "2h 15m",
+    "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600",
+    "screenshots": [
+      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400",
+      "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400",
+      "https://images.unsplash.com/photo-1478720143023-15024d542436?w=400"
+    ],
+    "links": {
+      "p480": "https://drive.google.com",
+      "p720": "https://drive.google.com",
+      "p1080": "https://drive.google.com"
+    },
+    "desc": "This is a high quality placeholder sample layout to verify your streaming server redirection workflows across multi-quality structures out of the box."
+  }
+]
